@@ -97,7 +97,8 @@ p {
   height: 150px;
   width: 150px;
   border-radius: 15px;
-  border: 2px solid #3882f6
+  border: 3px solid #3882f6
+  
 }
 
 .quote.container{
@@ -127,4 +128,47 @@ p {
  align-self: flex-end;
  margin-right: 48px;
  font-weight: 700;
+}
+
+.cta.container{
+  display: flex;
+  justify-content: center;
+}
+
+.ctawrapper{
+  display:flex;
+  border-radius: 12px;
+  justify-content: space-around;
+  align-items: center;
+  width: 750px;
+  height: 150px;
+  background-color: #3882f6;
+  margin: 48px;
+}
+
+.signup {
+  width: 150px; 
+  height: 50px; 
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  color: white;  
+  border-radius: 15px; 
+  outline-color:#e5e7eb
+}
+
+.cta_headline{
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.subtext{
+  color: white;
+}
+
+.footer.container{
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
 }
